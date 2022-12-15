@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "module": "es2020",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["packages/**/src", "src/declarations.d.ts"],
+  "exclude": ["packages/**/node_modules", "node_modules"]
+}
